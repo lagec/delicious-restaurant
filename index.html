@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <title>Delicious Restaurant Title</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <a href="index.html" class="logo-navigation">
+          Delicious
+        </a>
+        <ul class="site-navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h1 class="visually-hidden">Веб-сайт ресторана “Delicious”</h1>
+    <section class="welcome">
+      <h2 class="welcome-heading">Eat, drink and Enjoy.</h2>
+        <h3>Your Restaurant is Waiting For You.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+        <a class="main-btn" href="#">
+          Explore
+        </a>
+        <a class="hidden-btn" href="#">
+          See Menu
+        </a>
+    </section>
+    <section class="booking">
+      <h2 class="visually-hidden">Booking Menu</h2>
+      <h3 class="booking-heading">Book a Table</h3>
+      <form class="booking-form" action="post">
+        <label class="date-label form-label" for="bkng-date">Date</label>
+        <input type="date" class="booking-form-date form-input" placeholder="" value="2023-01-20" min="2023-01-01" max="2023-12-31"" id="bkng-date" required>
+        <label class="time-label form-label" for="bkng-time">Time</label>
+        <input type="time" class="booking-form-time form-input" placeholder="" value="06:30" id="bkng-time" required>
+        <label class="email-label form-label" for="bkng-email">Mail</label>
+        <input type="email" class="booking-form-email form-input" placeholder="andrea@gmail.com" id="bkng-email" required> 
+        <button type="submit" class="booking-form-submit">
+          Check Availability
+        </button>
+      </form>
+    </section> 
+      <section class="food-categories">
+        <p class="subtitle"">Delicious</p>
+        <h2>Food Categories</h2>
+        <ul>
+          <li class="food-category category-meat">
+            <h3>Meat</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+            <a href="#" class="main-btn">Read More</a>
+          </li>
+          <li class="food-category category-fish">
+            <h3>Fish</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+            <a href="#" class="main-btn">Read More</a>
+          </li>
+          <li class="food-category category-drinks">
+            <h3>Drinks</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+            <a href="#" class="main-btn">Read More</a>
+          </li>
+        </ul>
+      </section>
+      <section class="covid-protocol">
+        <p class="subtitle"">COVID-19 Protocol</p>
+        <h2>We care about you</h2>
+        <a href="#" class="main-btn">Read More</a>
+        <span class="table-decoration-span"></span>
+      </section>
+      <section class="story">
+        <div class="text-box">
+          <p class="subtitle"">Story</p>
+          <h2 class="title">Our Restaurant</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+          <a href="#" class="main-btn">Read More</a>
+        </div>
+        <div class="story-top-illustrations">
+          <span class="story-bottom-illustration"></span>
+        </div>
+      </section>
+      <section class="ingredients">
+        <span class="ingredients-illustration"></span>
+        <div class="text-box">
+          <p class="subtitle">Ingredients</p>
+          <h2 class="title">Fresh and healthy Ingredients</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+          <a href="#" class="main-btn">Read More</a>
+        </div>    
+      </section>
+      <section class="chef-words">
+        <div class="text-box">
+          <p class="subtitle">Words from</p>
+          <h2 class="title">The Chef</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+          <a href="#" class="main-btn">Read More</a>
+        </div>    
+        <span class="chef-illustration"></span>
+      </section>
+      <section class="reviews">
+        <header class="reviews-header">
+          <p class="subtitle">What our</p>
+          <h2 class="title">Customers Say</h2>
+        </header>
+        <ul class="reviews-list">
+         <li class="review-1 review-item">
+          <div class="review-box">
+            <div class="inner-head">
+              <p>John Smith</p>
+              <time datetime="2022-12-22">Aug/12/22</time>
+             </div>
+            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</q>
+          </div>
+         </li>
+         <li class="review-2 review-item">
+          <div class="review-box">
+            <div class="inner-head">
+              <p>Sara Parker</p>
+              <time datetime="2022-12-22">Aug/12/22</time>
+             </div>
+            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</q>
+          </div>
+         </li>
+         <li class="review-3 review-item">
+          <div class="review-box">
+            <div class="inner-head">
+              <p>Sam Brown</p>
+              <time datetime="2022-12-22">Aug/12/22</time>
+             </div>
+            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</q>
+          </div>
+         </li> 
+        </ul>
+      </section>
+      <section class="newsletter">
+        <p class="subtitle">Subscribe</p>
+        <h2 class="title">To Our Newsletter</h2>
+        <form action="" method="post" class="newsletter-form" id="newsletter-form">
+          <h2 class="visually-hidden">Newsletter</h2>
+          <label class="visually-hidden" for="newsletter-form-name">Name</label>
+            <input type="text" class="newsletter-form-name newsletter-input" id="newsletter-form-name" placeholder="name" required>
+          <label class="visually-hidden" for="newsletter-form-email">Email</label>
+            <input type="email" class="newsletter-form-email newsletter-input" id="newsletter-form-email" placeholder="email" required>
+          <label class="visually-hidden" for="newsletter-textarea"></label>
+          <textarea class="newsletter-form-textarea newsletter-input" placeholder="text" id="newsletter-textarea" maxlength="300"></textarea>
+          <button class="main-btn" type="submit">Send Message</button>
+        </form>
+      </section>
+  </main>
+  <footer class="main-footer">
+    <div class="container footer-wrapper">
+      <ul class="footer-about footer-list">
+        <h2 class="title">About</h2>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Mission Statement</a></li>
+          <li><a href="#">Terms&Condition</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <ul class="footer-what-we-do footer-list">
+        <h2 class="title">What we do</h2>
+          <li><a href="#">News and Stories</a></li>
+          <li><a href="#">Publications</a></li>
+          <li><a href="#">Take action</a></li>
+          <li><a href="#">Recommendations</a></li>
+          <li><a href="#">Help</a></li>
+      </ul> 
+      <div class="aside-footer">
+        <h2>Sign Up To Receive <br> Our Newsletter</h2>
+        <form action="" method="post">
+          <label class="visually-hidden" for=""footer-input>Newsletter Registration</label>
+          <input class="footer-sign-up-input" type="email" id="footer-input" placeholder="example@mail.com"">
+        </form>
+        <div class="social-media-wrapper">
+          <h3 class="social-media-subtitle">Follow Us!</h3>
+          <ul class="social-media-list">
+            <li class="facebook-logo social-media"><a href="#"></a></li>
+            <li class="instagram-logo social-media"><a href="#"></a></li>
+            <li class="youtube-logo social-media"><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
